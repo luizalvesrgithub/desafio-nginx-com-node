@@ -1,0 +1,999 @@
+ 1020  deactivate env
+ 1021  python3 -m venv env 
+ 1022  source ./env/bin/activate 
+ 1023  django-admin startapp todo_api
+ 1024  python3 manage.py migrate
+ 1025  pip install django
+ 1026  python3 manage.py migrate
+ 1027  pip install django_rest_framework
+ 1028  python3 manage.py migrate
+ 1029  deactivate env
+ 1030  cd ..
+ 1031  rm -rf DJPROJ
+ 1032  mkdir DJPROJ
+ 1033  pip install django
+ 1034  pip install django_rest_framework
+ 1035  django-admin startproject todo
+ 1036  cd todo 
+ 1037  django-admin startapp todo_api
+ 1038  python3 manage.py migrate
+ 1039  ls 
+ 1040  cd ..
+ 1041  rm -rf DJPROJ/
+ 1042  LS 
+ 1043  ls 
+ 1044  ls DJ*
+ 1045  mkdir sartana
+ 1046  cd sartana/
+ 1047  pip install django
+ 1048  pip install django_rest_framework
+ 1049  django-admin startproject todo
+ 1050  cd todo/
+ 1051  django-admin startapp todo_api
+ 1052  python3 manage.py migrate
+ 1053  cd DJPROJ/
+ 1054  code .
+ 1055  cd ..
+ 1056  cd sartana/
+ 1057  code .
+ 1058  cd todo
+ 1059  python3 manage.py makemigrations
+ 1060  python3 manage.py migrate
+ 1061  cd ..
+ 1062  python3 manage.py migrate
+ 1063  cd todo/
+ 1064  cd ..
+ 1065  cd todo/
+ 1066  cd ..
+ 1067  python3 manage.py migrate
+ 1068  python3 manage.py createsuperuser
+ 1069  python3 manage.py makemigrations
+ 1070  python3 manage.py migrate
+ 1071  python3 manage.py runserver
+ 1072  python3 manage.py createsuperuser
+ 1073  python3 manage.py runserver
+ 1074  python3 manage.py makemigrations
+ 1075  python3 manage.py migrate
+ 1076  python3 manage.py runserver
+ 1077  bash vpn.sh
+ 1078  python3 manage.py runserver
+ 1079  docker
+ 1080  docker --version
+ 1081  docker run hello-world
+ 1082  docker image ls 
+ 1083  docker rmi aafe7748418
+ 1084  docker rmi aafe7748418c
+ 1085  docker container ls 
+ 1086  docker container ls --all
+ 1087  docker container stop 70ab3d46518d
+ 1088  docker container start 70ab3d46518d
+ 1089  docker ls Alpine
+ 1090  docker image ls
+ 1091  docker ls alpine
+ 1092  docker image alpine
+ 1093  docker image
+ 1094  docker image ls
+ 1095  bash vpn.sh
+ 1096  python3 manage.py runserver
+ 1097  cd..
+ 1098  cd ..
+ 1099  docker img ls 
+ 1100  docker image ls 
+ 1101  docker image ls
+ 1102  git clone https://gitlab.tjdft.jus.br/configuracao/ansible/playbooks/siex.git
+ 1103  cd siex
+ 1104  ./instalar.sh
+ 1105  cd ..
+ 1106  rm -rf siex
+ 1107  git clone https://gitlab.tjdft.jus.br/configuracao/ansible/playbooks/siex.git
+ 1108  cd siex
+ 1109  ./instalar.sh
+ 1110  python3 manage.py runserver
+ 1111  bash bpn.sh
+ 1112  bash vpn.sh
+ 1113  cd /home/t317542/LATEXPROJETOS
+ 1114  clear
+ 1115  cd /home/t317542/GABRIEL_ISAAC
+ 1116  clear
+ 1117  cd /home/t317542/GABRIEL_ISAAC
+ 1118  clear
+ 1119  git clone https://gitlab.tjdft.jus.br/configuracao/ansible/playbooks/sass.git
+ 1120  bash vpn.sh
+ 1121  docker run nginx 
+ 1122  docker run -p nginx 
+ 1123  docker run -p 8080:80 nginx 
+ 1124  docker ps
+ 1125  docker run -d -p 8080:80 nginx
+ 1126  docker ps
+ 1127  docker stop 78d0670574fd
+ 1128  docker ps
+ 1129  docker ps -a 
+ 1130  docker start 1ef9e65423dc
+ 1131  docker ps -a 
+ 1132  docker rm 3f99bc175cf8
+ 1133  docker rm wordpress
+ 1134  docker rm 9a04aa34f3f3
+ 1135  docker ps -a 
+ 1136  docker rm wordpress
+ 1137  docker rm e5369dca5576
+ 1138  docker rm -rf
+ 1139  docker ps -a 
+ 1140  docker rm wizardly_galois
+ 1141  docker ps -a 
+ 1142  docker rm determined_gates
+ 1143  docker ps -a 
+ 1144  docker rm docker-compose_*
+ 1145  docker rm docker-compose_?
+ 1146  docker rm docker-compose_balanceador_1
+ 1147  docker ps -a 
+ 1148  docker rm docker-compose_app_1
+ 1149  docker rm docker-compose_app-atualizador_1
+ 1150  docker ps -a 
+ 1151  docker rm docker-compose_storage-certs_1
+ 1152  docker rm docker docker-compose_db_1
+ 1153  docker rm docker-compose_db_1
+ 1154  docker ps -a 
+ 1155  docker rm docker-compose_storage-openldap_1
+ 1156  docker rm docker-compose_storage-app_1
+ 1157  docker rm docker-compose_memcached_1
+ 1158  docker rm docker-compose_solr_1
+ 1159  docker rm docker-compose_jod_1
+ 1160  docker run -d --name  nginx nginx
+ 1161  docker ps
+ 1162  docker rm jovial_boyd
+ 1163  docker rm jovial_boyd -f
+ 1164  docker ps -a
+ 1165  docker rm nginx -f
+ 1166  docker ps -a
+ 1167  docker rm sweet_chaum -f
+ 1168  docker ps -a
+ 1169  docker run --name nginx -d -p 8080:80 nginx
+ 1170  docker exec nginx ls 
+ 1171  docker exec ngnx bash
+ 1172  docker exec nginx bash
+ 1173  docker exec -it nginx bash
+ 1174  docker run -d --name nginx -p 8080:80 -v
+ 1175  docker run -d --name nginx -p 8080:80 -v /home/t317542/home/t317542/LATEXPROJETOS/:/usr/share/nginx/html nginx
+ 1176  docker ps
+ 1177  docker run nginx 
+ 1178  docker ps
+ 1179  docker run -d nginx
+ 1180  docker ps
+ 1181  bash vpn.sh
+ 1182  ls 
+ 1183  mk html
+ 1184  mkdir html
+ 1185  ls 
+ 1186  pwd
+ 1187  ls h*
+ 1188  docker run -d --name nginx -p 8080:80 -v ~/home/t317542/html/:/usr/share/nginx/html nginx 
+ 1189  docker run -d --name nginx -p 8080:80 -v /home/t317542/html/:/usr/share/nginx/html nginx 
+ 1190  docker ps 
+ 1191  docker rm 45883c2962d28411a8f9d5f99327752e79bb1520b7ba344721173b1f7c2b9a38
+ 1192  docker run -d --name nginx -p 8080:80 -v /home/t317542/html/:/usr/share/nginx/html nginx 
+ 1193  docker ps
+ 1194  cd html
+ 1195  ls 
+ 1196  vim index.html
+ 1197  cd ..
+ 1198  docker run -d --name nginx -p 8080:80 --mount type=bind,source="$(pwd)"/html,target=/usr/share/nginx/html nginx
+ 1199  docker rm nginx -f 
+ 1200  docker run -d --name nginx -p 8080:80 --mount type=bind,source="$(pwd)"/html,target=/usr/share/nginx/html nginx
+ 1201  cd html/
+ 1202  ls 
+ 1203  vim index.html
+ 1204  cd ..
+ 1205  docker rm nginx -f 
+ 1206  docker run -d -v "$(pwd)"/html/x:/usr/share/nginx/html nginx
+ 1207  ps 
+ 1208  docker ps 
+ 1209  docker rm strange_snyder -f 
+ 1210  docker volume create meuvolume
+ 1211  docker volume ls
+ 1212  docker volume inspect meu volume
+ 1213  docker volume inspect meuvolume
+ 1214  docker run --name nginx -d --mout type=volume,source=meuvolume,target=/app nginx
+ 1215  docker run --name nginx -d --mount type=volume,source=meuvolume,target=/app nginx
+ 1216  docker exec -it nginx bash
+ 1217  docker run --name nginx2 -d --mount type=volume,source=meuvolume,target=/app nginx2
+ 1218  docker run --name nginx2 -d --mount type=volume,source=meuvolume,target=/app nginx
+ 1219  docker exec -it nginx2 bash
+ 1220  docker exec -it nginx bash
+ 1221  docker run --name nginx3 -d -v meuvolume:/app nginx
+ 1222  docker exec -it nginx3 bash
+ 1223  docker volume prone 
+ 1224  docker volume prune
+ 1225  pwd 
+ 1226  cat histotoy > comandosDocker.txt
+ 1227  histotory > comandosDocker.txt
+ 1228  history
+ 1229  cd html/
+ 1230  ls 
+ 1231  rm -rf x
+ 1232  cd ..
+ 1233  docker build -t luizalvesr/nginx-com-vim:latest .
+ 1234  docker images
+ 1235  docker run -it luizalvesr/nginx-com-vim bash
+ 1236  docker build -t luizalvesr/nginx-com-vim:latest .
+ 1237  docker run -it luizalvesr/nginx-com-vim bash
+ 1238  docker build -t luizalvesr/nginx-com-vim:latest .
+ 1239  docker run -it luizalvesr/nginx-com-vim bash
+ 1240  docker build -t luizalvesr/nginx-com-vim:latest .
+ 1241  docker run -it luizalvesr/nginx-com-vim bash
+ 1242  docker build -t luizalvesr/nginx-com-vim:latest .
+ 1243  docker run -it luizalvesr/nginx-com-vim bash
+ 1244  docker build -t luizalvesr/nginx-com-vim:latest .
+ 1245  docker run -it luizalvesr/nginx-com-vim bash
+ 1246  docker build -t luizalves/hello .
+ 1247  docker run --rm luizalves/hello .
+ 1248  docker run --rm luizalves/hello:latest
+ 1249  docker ps -a 
+ 1250  docker ps -a -q
+ 1251  docker rm $(docker ps -a -q) -f
+ 1252  docker ps -a
+ 1253  docker rm $(docker ps -a -q) -f
+ 1254  docker run --rm luizalvesr/hello echo "oi"
+ 1255  docker run --rm luizalves/hello:latest
+ 1256  docker run --rm luizalvesr/hello echo "oi"
+ 1257  docker rm $(docker ps -a -q) -f
+ 1258  docker run --rm luizalves/hello bash
+ 1259  docker ps 
+ 1260  docker uild -t luizalvesr/hello
+ 1261  docker build -t luizalvesr/hello .
+ 1262  docker run --rm luizalvesr/hello
+ 1263  docker run --rm luizalves/hello 
+ 1264  docker build -t luizalvesr/hello .
+ 1265  docker run --rm luizalves/hello 
+ 1266  docker build -t luizalvesr/hello .
+ 1267  docker run --rm luizalves/hello 
+ 1268  docker run --rm luizalves/hello Luiz Alves
+ 1269  docker run --rm luizalves/hello Luiz
+ 1270  docker run --rm luizalves/hello Jose
+ 1271  docker build -t luizalvesr/hello .
+ 1272  docker run --rm luizalves/hello Jose
+ 1273  docker run --rm luizalves/hello Luiz
+ 1274  docker run --rm luizalves/hello
+ 1275  docker run --rm luizalves/hello x
+ 1276  docker run --rm nginx bash
+ 1277  docker run --rm -it  nginx bash
+ 1278  cd DOCKERSTD/]
+ 1279  cd DOCKERSTD/
+ 1280  code .
+ 1281  docker images
+ 1282  docker pull php
+ 1283  docker images
+ 1284  docker rmi php:
+ 1285  docker rmi php:latest
+ 1286  docker image
+ 1287  docker images
+ 1288  docker rmi alpine
+ 1289  bash vpn.sh
+ 1290  docker run --rm nginx bash
+ 1291  docker run --rm -it  nginx bash
+ 1292  docker build -t luizalvesr/nginx-ciclotropico .
+ 1293  docker run --rm -d -p 8080:80 luizalvesr/nginx-ciclotropico 
+ 1294  docker build -t luizalvesr/nginx-ciclotropico .
+ 1295  docker run --rm -d -p 8080:80 luizalvesr/nginx-ciclotropico 
+ 1296  docker build -t luizalvesr/nginx-ciclotropico .
+ 1297  docker run --rm -d -p 8080:80 luizalvesr/nginx-ciclotropico 
+ 1298  docker build -t luizalvesr/nginx-ciclotropico .
+ 1299  docker run --rm -d -p 8080:80 luizalvesr/nginx-ciclotropico 
+ 1300  docker push luizalvesr/nginx-ciclotropico
+ 1301  docker login
+ 1302  docker push luizalvesr/nginx-ciclotropico
+ 1303  docker network
+ 1304  docker network ls 
+ 1305  docker network bridge
+ 1306  docker network prune
+ 1307  docker network ls 
+ 1308  clear
+ 1309  docker run -d -it --name ubuntu1 bash
+ 1310  clear
+ 1311  docker ps
+ 1312  docker run -d -it --name ubuntu2 bash
+ 1313  docker ps
+ 1314  docker network inspect bridge
+ 1315  docker attach ubuntu1
+ 1316  docker ps 
+ 1317  docker stop ubuntu2
+ 1318  docker rm ubuntu1
+ 1319  docker rm ubuntu2
+ 1320  docker network create --driver bridge minharede
+ 1321  ls 
+ 1322  docker stop luizalvesr/hello .
+ 1323  docker run --rm -d -p 8080:80 https://hub.docker.com/repository/docker/luizalvesr/nginx-ciclotropico
+ 1324  docker run -p 8080:80 https://hub.docker.com/repository/docker/luizalvesr/nginx-ciclotropico
+ 1325  cd laravel
+ 1326  docker build -t luizalvesr/laravel:latest .
+ 1327  clear
+ 1328  php artisan serve
+ 1329  sudo apt install php-cli 
+ 1330  php artisan serve
+ 1331  ls 
+ 1332  php artisan serve
+ 1333  docker build -t luizalvesr/laravel:latest .
+ 1334  php artisan server
+ 1335  cd ..
+ 1336  php artisan serve
+ 1337  cd laravel/
+ 1338  php artisan serve
+ 1339  composer install
+ 1340  docker build -t luizalvesr/laravel:latest .
+ 1341  docker run --rm --name laravel -p 8000:8000 luizalvesr/laravel
+ 1342  cd laravel
+ 1343  docker build -t luizalvesr/laravel:latest .
+ 1344  docker run --rm --name laravel -p 8000:8000 luizalvesr/laravel
+ 1345  docker run --rm -d  --name laravel -p 8000:8000 luizalvesr/laravel
+ 1346  clear 
+ 1347  docker ps
+ 1348  docker logs laravel
+ 1349  docker run --rm -d --name laravel -p 8001:8001 luizalvesr/laravel --host=0.0.0.0 --port=8001
+ 1350  docker logs laravel
+ 1351  docker push luizalvesr/laravel
+ 1352  cd html/
+ 1353  php -S 0.0.0.0:80000
+ 1354  cd ..
+ 1355  docker run -it --name php:7.4-cli bash
+ 1356  docker run -it --name php  php:7.4-cli bash
+ 1357  docker ps
+ 1358  docker rm -f c1c
+ 1359  docker ps
+ 1360  docker rm -f 8fa
+ 1361  docker ps
+ 1362  docker rm -f 09e
+ 1363  docker ps
+ 1364  docker rm -f laravel
+ 1365  docker ps
+ 1366  docker rm -f laravel
+ 1367  git clone https://gitlab.tjdft.jus.br/configuracao/ansible/playbooks/sipad.git
+ 1368  cd sipad
+ 1369  ./instalar.sh
+ 1370  bash vpn.sh 
+ 1371  cd node
+ 1372  docker run --rm -it -v $(pwd)/:/usr/srce/app -p 3000:30000 node:15 bash
+ 1373  ps 
+ 1374  docker ps 
+ 1375  ls 
+ 1376  docker build -t luizalvesr/hello-express .
+ 1377  docker run -p 3000:3000 luizalvesr/hello-express
+ 1378  exit
+ 1379  docker push luizalvesr/luizalvesr/hello-express
+ 1380  docker push luizalvesr/hello-express
+ 1381  docker ps
+ 1382  docker build -t luizalvesr/hello-express node/ -f node/ Dockerfile.prod 
+ 1383  docker build -t luizalvesr/hello-express node/ -f node/Dockerfile.prod 
+ 1384  cd laravel/
+ 1385  ls 
+ 1386  cd ..
+ 1387  docker build -t luizalvesr/laravel:prod laravel -f laravel/Dockerfile
+ 1388  docker build -t luizalvesr/laravel:prod laravel -f laravel/Dockerfile.prod
+ 1389  docker images | grep laravel
+ 1390  docker build -t luizalvesr/laravel:prod laravel -f laravel/Dockerfile.prod
+ 1391  docker images | grep laravel
+ 1392  docker build -t luizalvesr/laravel:prod laravel -f laravel/Dockerfile.prod
+ 1393  docker images | grep laravel
+ 1394  cd nginx
+ 1395  ls 
+ 1396  rm -rf html
+ 1397  ls 
+ 1398  cd html
+ 1399  ls 
+ 1400  cd ..
+ 1401  pwd
+ 1402  cd DOCKERSTD/
+ 1403  LS 
+ 1404  ls
+ 1405  docker rm -f laravel
+ 1406  docker ps 
+ 1407  docker rm -f 84b
+ 1408  docker ps 
+ 1409  cd ..
+ 1410  cd noe
+ 1411  cd node
+ 1412  ls 
+ 1413  docker build -t luizalvesr/hello-express .
+ 1414  docker run -p 3000:3000 luizalvesr/hello-express
+ 1415  cd nginx/
+ 1416  docker build -t luizalvesr/nginx:prod . -f Dockerfile.prod
+ 1417  docker network list
+ 1418  docker network create laranet 
+ 1419  docker run -d --network 1ee6dc523c1e --name laravel luizalvesr/laravel:prod 
+ 1420  docker ps 
+ 1421  docker run -d --network 1ee6dc523c1e --name nginx -p 8080:80 luizalvesr/nginx:prod
+ 1422  docker ps 
+ 1423  docker logs nginx
+ 1424  bash vpn.sh
+ 1425  docker ps
+ 1426  docker rm $(docker ps -a -q) -f
+ 1427  docker ps 
+ 1428  ls 
+ 1429  doceker build -t luizalvesr/nginx:prod . -f Dockerfile.prod
+ 1430  docker build -t luizalvesr/nginx:prod . -f Dockerfile.prod
+ 1431  docker network list
+ 1432  docker run -d --network bridge --name laravel luizalvesr/laravel:prod 
+ 1433  docker rm -rf 0ab39080b3df06ca53296d12c9e9396461bb9aad66b86c7986ee9c31f5bbbcf8
+ 1434  docker rm -f 0ab39080b3df06ca53296d12c9e9396461bb9aad66b86c7986ee9c31f5bbbcf8
+ 1435  docker run -d --network bridge --name laravel luizalvesr/laravel:prod 
+ 1436  docker ps
+ 1437  docker run -d --network bridge --name nginx -p 8080:80 luizalvesr/nginx:prod
+ 1438  docker rm -f 18afce04dfb5ef956b65337fc580d47763bf70efd4e0fdf5431674e78b6807d8
+ 1439  docker run -d --network bridge --name nginx -p 8080:80 luizalvesr/nginx:prod
+ 1440  docker ps 
+ 1441  docker logs nginx
+ 1442  docker run -d --network bridge --name nginx -p 8080:80 luizalvesr/nginx:prod
+ 1443  docker ps 
+ 1444  docker rm -f nginx
+ 1445  docker rm -f laravel
+ 1446  docker run -d --network bridge --name laravel luizalvesr/laravel:prod 
+ 1447  docker ps 
+ 1448  docker rm -f laravel
+ 1449  docker ps
+ 1450  doceker build -t luizalvesr/laravel:prod laravel -f laravel/ Dockerfile.prod
+ 1451  docker build -t luizalvesr/laravel:prod laravel -f laravel/ Dockerfile.prod
+ 1452  docker build -t luizalvesr/laravel:prod laravel -f laravel/Dockerfile.prod
+ 1453  cd ..
+ 1454  docker build -t luizalvesr/laravel:prod laravel -f laravel/Dockerfile.prod
+ 1455  docker run -d --network bridge --name laravel luizalvesr/laravel:prod 
+ 1456  docker ps 
+ 1457  docker run -d --network bridge --name nginx luizalvesr/nginx:prod 
+ 1458  docker ps 
+ 1459  docker rm -f nginx
+ 1460  docker ps 
+ 1461  docker run -d --network bridge --name nginx -p 8080:80 luizalvesr/nginx:prod
+ 1462  docker ps 
+ 1463  docker network list
+ 1464  docker network create laranet 
+ 1465  docker run -d --network host --name laravel luizalvesr/laravel:prod 
+ 1466  docker rm -f 93b1219cdba7977e9407d19ac000aa70d37ddb78235d98206dd1181ae96386f4
+ 1467  docker ps
+ 1468  docker rm -f nginx
+ 1469  docker ps
+ 1470  docker run -d --network host --name laravel luizalvesr/laravel:prod 
+ 1471  docker run -d --network host --name nginx -p 8080:80 luizalvesr/nginx:prod
+ 1472  docker rm -f nginx
+ 1473  docker rm -f laravel
+ 1474  docker ps
+ 1475  ls 
+ 1476  docker-compose up
+ 1477  docker network ps 
+ 1478  docker-compose up
+ 1479  docker ps 
+ 1480  docker-compose up
+ 1481  docker network ps 
+ 1482  docker network ls 
+ 1483  ls 
+ 1484  docker-compose up
+ 1485  docker network create laranet 
+ 1486  docker-compose up
+ 1487  docker network ls 
+ 1488  docker-compose up
+ 1489  docker ps 
+ 1490  docker stop laravel
+ 1491  docker stop nginx 
+ 1492  docker ps 
+ 1493  docker-compose up -d 
+ 1494  docker-compose ps 
+ 1495  docker-compose down
+ 1496  docker-compose up -d --build
+ 1497  docker ps 
+ 1498  docker rm
+ 1499  docker rm $(docker ps -a -2) -f
+ 1500  docker rm $(docker ps -a -q) -f
+ 1501  docker-compose up -d
+ 1502  docker logs db
+ 1503  docker-compose up -d 
+ 1504  docker ps 
+ 1505  docker rm $(docker ps -a -q) -f
+ 1506  docker ps 
+ 1507  docker-compose up -d 
+ 1508  docker ps 
+ 1509  docker rm $(docker ps -a -q) -f
+ 1510  docker-compose up -d --build 
+ 1511  docker ps 
+ 1512  docker exec -it app bash
+ 1513  docker rm $(docker ps -a -q) -f
+ 1514  docker-compose up -d --build 
+ 1515  docker exec -it app bash
+ 1516  docker rm $(docker ps -a -q) -f
+ 1517  docker-compose up -d --build 
+ 1518  docker exec -it app bash
+ 1519  docker-compose up -d --build 
+ 1520  docker exec -it app bash
+ 1521  docker ps 
+ 1522  docker rm $(docker ps -a -q) -f
+ 1523  docker ps 
+ 1524  docker-compose up -d --build 
+ 1525  docker ps 
+ 1526  docker exec -it app bash
+ 1527  docker rm $(docker ps -a -q) -f
+ 1528  docker ps 
+ 1529  docker-compose up -d --build 
+ 1530  docker ps 
+ 1531  docker rm $(docker ps -a -q) -f
+ 1532  docker-compose up -d --build 
+ 1533  docker ps 
+ 1534  docker rm $(docker ps -a -q) -f
+ 1535  docker-compose up -d
+ 1536  docker ps 
+ 1537  docker exec -it app bash
+ 1538  docker ps 
+ 1539  docker-compose.node up -d --build
+ 1540  docker-compose up -d --build
+ 1541  docker ps 
+ 1542  docker exec -it app bash
+ 1543  docker-compose.node up -d --build
+ 1544  docker-compose up -d --build
+ 1545  docker ps 
+ 1546  cd ..
+ 1547  docker ps 
+ 1548  docker network ls 
+ 1549  cd var
+ 1550  docker rm
+ 1551  docker ps 
+ 1552  docker rm $
+ 1553  docker rm laravel
+ 1554  docker stop laravel
+ 1555  docker stop nginx 
+ 1556  docker ps 
+ 1557  docker-compose up
+ 1558  docker-compose up-d 
+ 1559  docker-compose up -d
+ 1560  docker exec -it db bash
+ 1561  mysql 
+ 1562  docker exec -it db bash
+ 1563  docker ps 
+ 1564  docker rm db
+ 1565  docker stop db
+ 1566  docker ps
+ 1567  docker-compose up -d --build
+ 1568  docker ps 
+ 1569  docker exec -it db base
+ 1570  docker exec -it db bass
+ 1571  docker exec -it db bash
+ 1572  docker ps 
+ 1573  docker ps 
+ 1574  docker stop db
+ 1575  docker ps 
+ 1576  docker-compose up -d --build
+ 1577  docker ps 
+ 1578  docker-compose up -d --build
+ 1579  curl -fsSL -o get_helm.sh https://raw.githubusercontent.com/helm/helm/main/scripts/get-helm-3
+ 1580  chmod 700 get_helm.sh
+ 1581  ./get_helm.sh
+ 1582  helm version
+ 1583  helm install my-release oci://registry-1.docker.io/bitnamicharts/dokuwiki
+ 1584  npm install -g commitizen
+ 1585  commitizen init cz-conventional-changelog --save-dev --save-exact
+ 1586  docker exec -it app
+ 1587  docker exec -it app bash
+ 1588  docker stop db
+ 1589  docker stop app
+ 1590  docker-compose up -d --build
+ 1591  docker ls 
+ 1592  docker ps
+ 1593  docker stop db
+ 1594  docker stop app
+ 1595  docker ps 
+ 1596  docker rm -f $
+ 1597  docker rm -f 
+ 1598  docker rm -f  ?
+ 1599  docker ps 
+ 1600  docker network ls 
+ 1601  docker ps
+ 1602  docker stop db
+ 1603  cd /home/t317542/LATEXPROJETOS
+ 1604  clear
+ 1605  docker ps 
+ 1606  docker exec -it nginx bash
+ 1607  docker ps -a 
+ 1608  docker exec -it nginx bash
+ 1609  docker start nginx 
+ 1610  docker exec -it nginx bash
+ 1611  docker start nginx 
+ 1612  docker ps 
+ 1613  docker run --name nginx -d -p 8080:80 nginx 
+ 1614  docker ps 
+ 1615  docker ps 
+ 1616  docker-compose up -d --build
+ 1617  docker run hello-world
+ 1618  docker ps -a
+ 1619  docker run -it ubuntu:latest bash
+ 1620  docker-compose up -d --build
+ 1621  docker ps -a 
+ 1622  docker run -it --rm  ubuntu:latest bash
+ 1623  docker ps -a 
+ 1624  docker --rm $(pwd)
+ 1625  docker run nginx 
+ 1626  docker run -p 8080:80  nginx 
+ 1627  docker run -d -p 80:80  nginx 
+ 1628  docker ps -a 
+ 1629  docker ps -a
+ 1630  docker rm 3
+ 1631  docker rm f3
+ 1632  docker rm b4
+ 1633  docker rm e6
+ 1634  docker ps
+ 1635  docker rm 3c
+ 1636  docker stop nginx
+ 1637  docker stop 3cf7c1bdacf5
+ 1638  docker rm 3c
+ 1639  docker ps -a 
+ 1640  docker rm 17
+ 1641  docker rm 1f
+ 1642  docker rm 26
+ 1643  docker ps -a 
+ 1644  docker run -d --name nginx nginx 
+ 1645  docker rm nginx -f
+ 1646  docker run -d --name nginx nginx -p 8080:80
+ 1647  docker exec -it nginx
+ 1648  docker exec nginx ls 
+ 1649  docker run -d --name nginx nginx -p 8080:80
+ 1650  docker ps -a
+ 1651  docker rm -f
+ 1652  docker stop nginx
+ 1653  docker ps -a
+ 1654  docker rm -f
+ 1655  docker rm nginx -f
+ 1656  docker ps -a
+ 1657  docker run -d --name nginx nginx -p 8080:80
+ 1658  docker exec -it nginx
+ 1659  docker exec -it nginx bash
+ 1660  docker ps 
+ 1661  docker run -d --name nginx nginx -p 8080:80
+ 1662  docker run --name nginx -d -p 8080:80 nginx 
+ 1663  docker rm 6c9e928a69f2061718e2d3d087f012cfce3381ab01d9ebb747028e9566ee0632 -f
+ 1664  docker run --name nginx -d -p 8080:80 nginx 
+ 1665  docker exec -it nginx bash
+ 1666  docker rm nginx -f
+ 1667  docker run --name nginx -d -p 8080:80 nginx 
+ 1668  ls 
+ 1669  cd FULL_CYCLE_DOCKER/
+ 1670  code .
+ 1671  ls 
+ 1672  mkdir html
+ 1673  cd html
+ 1674  touch index.html
+ 1675  ls 
+ 1676  vim index.html
+ 1677  cat index.html
+ 1678  cd ..
+ 1679  cd html
+ 1680  vim index.html
+ 1681  pwd
+ 1682  docker ps 
+ 1683  docker ls 
+ 1684  docker ps 
+ 1685  docker exec -it nginx bash
+ 1686  docker rm nginx -f
+ 1687  docker ps 
+ 1688  cd html
+ 1689  cat index.html 
+ 1690  cd ..
+ 1691  docker rm nginx -f
+ 1692  docker ps 
+ 1693  docker rm nginx -f
+ 1694  docker ps 
+ 1695  docker rm nginx -f
+ 1696  docker run -d --name nginx -p 8080:80 -v ~/home/t317542/FULL_CYCLE_DOCKER:/usr/share/nginx/html nginx
+ 1697  docker stop bf040c1c0b67ea73e59c5fe915c47906ffbd8cd1301ea71c2ac2731b0f6de182
+ 1698  docker run -d --name nginx -p 8080:80 -v ~/home/t317542/FULL_CYCLE_DOCKER:/usr/share/nginx/html nginx
+ 1699  docker ps 
+ 1700  docker run -d --name nginx -p 8080:80 -v ~/home/t317542/FULL_CYCLE_DOCKER:/usr/share/nginx/html nginx
+ 1701  docker rm -f nginx
+ 1702  docker run -d --name nginx -p 8080:80 -v ~/home/t317542/FULL_CYCLE_DOCKER:/usr/share/nginx/html nginx
+ 1703  docker run -d --name nginx -p 8080:80 -v ~/home/t317542/FULL_CYCLE_DOCKER/html:/usr/share/nginx/html nginx
+ 1704  docker ps 
+ 1705  docker run -d --name nginx -p 8080:80 -v ~/home/t317542/FULL_CYCLE_DOCKER/html/:/usr/share/nginx/html nginx
+ 1706  docker run -d --name nginx -p 8080:80 -v /home/t317542/FULL_CYCLE_DOCKER/html/:/usr/share/nginx/html nginx
+ 1707  docker run -d --name nginx -p 8080:80 --mount type=bind,source="$(pwd)"/html,target=/usr/share/nginx/html nginx
+ 1708  docker run -d -v "$(pwd)"/html/x:/usr/share/nginx/html nginx
+ 1709  cd html
+ 1710  ls 
+ 1711  rm -rf html/x
+ 1712  ls 
+ 1713  cd ..
+ 1714  rm -rf html/x
+ 1715  ls 
+ 1716  helm install my-release oci://registry-1.docker.io/bitnamicharts/opencart
+ 1717  helm install helm-release-sample oci://registry-1.docker.io/bitnamicharts/dokuwiki
+ 1718  git clone https://gitlab.tjdft.jus.br/configuracao/ansible/playbooks/siscor.git
+ 1719  ./instalar.sh
+ 1720  cd ..
+ 1721  rm -rf siscor 
+ 1722  ls 
+ 1723  cd siscor
+ 1724  ./instalar.sh
+ 1725  cd ..
+ 1726  rm -rf siscor 
+ 1727  git clone https://gitlab.tjdft.jus.br/configuracao/ansible/playbooks/siscor.git
+ 1728  cd siscor
+ 1729  ./instalar.sh
+ 1730  bash vpn.sh]
+ 1731  bash vpn.sh
+ 1732  docker volume ls 
+ 1733  docker build -t luizalvesr/laravel:prod laravel -f laravel
+ 1734  docker build -t luizalvesr/DEZafioDEZafio:prod laravel -f DEZafo
+ 1735  docker build -t luizalvesr/DEZafio:prod DEZafio -f DEZafio/Dockerfile
+ 1736  docker build -t luizalvesr/desafio:prod desafio -f desafio/Dockerfile
+ 1737  docker images 
+ 1738  docker build -t luizalvesr/desafio:prod desafio -f desafio/Dockerfile
+ 1739  docker images
+ 1740  docker build -t luizalvesr/desafio:prod desafio -f desafio/Dockerfile
+ 1741  docker images
+ 1742  docker rm f02e49c573ee7 -f
+ 1743  docker system prune -a
+ 1744  docker images -a
+ 1745  docker images -f dangling=true
+ 1746  docker image prune
+ 1747  docker images ps 
+ 1748  docker build -t luizalvesr/desafio:prod desafio -f desafio/Dockerfile desafio
+ 1749  docker build -t luizalvesr/desafio:prod desafio -f desafio/Dockerfile 
+ 1750  docker ps
+ 1751  docker build -t luizalvesr/desafio:prod desafio -f desafio/Dockerfile 
+ 1752  docker images 
+ 1753  history
+ 1754  docker run -d --name desafio desafio -p 8080:80
+ 1755  docker run -d --name luizalvesr/desafio desafio -p 8080:80
+ 1756  docker images
+ 1757  docker run -d --name luizalvesr/desafio desafio -p 8080:80
+ 1758  docker run -d --name luizalvesr/desafio -p 8080:80
+ 1759  docker run -d --name luizalvesr/desafio luizalvesr/ desafio -p 8080:80
+ 1760  docker images prune
+ 1761  docer images ps
+ 1762  docker images ps
+ 1763  docker run -d --name luizalvesr/desafio luizalvesr/desafio -p 8080:80
+ 1764  docker run -d --name desafio desafio -p 8080:80
+ 1765  docker rm $(docker ps -a -q) -f
+ 1766  docker build -t luizalvesr/desafio:prod desafio -f desafio/Dockerfile
+ 1767  docker ps 
+ 1768  docker images
+ 1769  docker run -d --name 6a3ccf9a334e -p 8080:80
+ 1770  cd desafionginx/
+ 1771  ls 
+ 1772  docker-compose up -d --build
+ 1773  docker ps 
+ 1774  docker rm $(docker ps -a -q) -f
+ 1775  docker ps
+ 1776  docker-compose up -d
+ 1777  docker images
+ 1778  docker images -a |  grep "pattern"
+ 1779  docker images -a |  grep "luizalvesr"
+ 1780  docker rmi $(docker images -a -q)
+ 1781  docker ps
+ 1782  docker-compose up -d
+ 1783  docker stop desafionginx_nginx_1
+ 1784  docker stop desafionginx_app_1
+ 1785  docker stop desafionginx_db_1
+ 1786  docker rm $
+ 1787  docker rm $(docker ps -a -q) -f
+ 1788  docker-compose up
+ 1789  docker rm $(docker ps -a -q) -f
+ 1790  docker-compose up
+ 1791  docker rm $(docker ps -a -q) -f
+ 1792  docker-compose up
+ 1793  docker rm $(docker ps -a -q) -f
+ 1794  docker-compose up
+ 1795  docker rm $(docker ps -a -q) -f
+ 1796  docker ps 
+ 1797  docker-compose up
+ 1798  docker rm $(docker ps -a -q) -f
+ 1799  docker-compose up
+ 1800  docker rm $(docker ps -a -q) -f
+ 1801  docker-compose up
+ 1802  docker rm $(docker ps -a -q) -f
+ 1803  docker-compose up
+ 1804  cd 10APHIO/desafio/
+ 1805  ls 
+ 1806  docker build -t luizalvesr/desafio .]
+ 1807  docker build -t luizalvesr/desafio .
+ 1808  docker ps
+ 1809  docker run -p 3000:3000 luizalvesr/desafio
+ 1810  docker push luizalvesr/desafio
+ 1811  docker run -it -p 3000:3000 luizalvesr/desafio
+ 1812  docker ps 
+ 1813  docker image
+ 1814  docker images ps
+ 1815  docker images | grep desafio
+ 1816  docker push luizalvesr/desafio
+ 1817  docker login
+ 1818  docker push luizalvesr/desafio
+ 1819  rm -rf siscor
+ 1820  cd ..
+ 1821  rm -rf siscor
+ 1822  ansible -playbook --version
+ 1823  ansible-playbook --version
+ 1824  git clone https://gitlab.tjdft.jus.br/configuracao/ansible/playbooks/siscor.git
+ 1825  cd siscor
+ 1826  ./instalar.sh 
+ 1827  cd ..
+ 1828  helm install my-release oci://registry-1.docker.io/bitnamicharts/dokuwiki
+ 1829  helm repo update
+ 1830  helm repo add bitnami https://charts.bitnami.com/bitnami
+ 1831  helm search repo bitnami
+ 1832  cd DOCKERSTD/
+ 1833  LS 
+ 1834  ls 
+ 1835  cd 10APHIO/
+ 1836  code .
+ 1837  history
+ 1838  history > comandario.txt
+ 1839  ls 
+ 1840  docker-compose up
+ 1841  docker ps a 
+ 1842  docker ps  
+ 1843  docker-compose up
+ 1844  docker ps 
+ 1845  docker-compose up
+ 1846  docker compose up
+ 1847  docker rm $(docker ps -a -q) -f
+ 1848  docker ps 
+ 1849  docker compose up --build
+ 1850  docker rm $(docker ps -a -q) -f
+ 1851  docker compose up --build
+ 1852  docker ps
+ 1853  docker rm $(docker ps -a -q) -f
+ 1854  docker ps
+ 1855  docker rm $(docker ps -a -q) -f
+ 1856  docker compose up --build
+ 1857  cd ..
+ 1858  cd ST
+ 1859  ls 
+ 1860  cd DOCKERSTD/
+ 1861  LS 
+ 1862  docker ps -a 
+ 1863  docker rm $(docker ps -a -q) -f
+ 1864  docker ps -a 
+ 1865  kind create cluster --config=k8s/config.yaml
+ 1866  ls 
+ 1867  cd fc-k8s-main/
+ 1868  ls 
+ 1869  kind create cluster --config=k8s/config.yaml
+ 1870  kind create cluster --config=./k8s/config.yaml
+ 1871  cd ..
+ 1872  kind create cluster --config=./k8s/kind.yaml
+ 1873  kind create cluster --config=k8s/kind.yaml
+ 1874  cd fc-k8s-main/
+ 1875  kind create cluster --config=k8s/kind.yaml
+ 1876  kind delete clusters kind-kind
+ 1877  docker ps 
+ 1878  docker rm $(docker ps -a -q) -f
+ 1879  docker ps 
+ 1880  kind create cluster --config=k8s/kind.yaml --name=clustertj400
+ 1881  kubectl cluster-info --context kind-clustertj400
+ 1882  docker ps 
+ 1883  kubectl get nodes
+ 1884  kubectl
+ 1885  kubectl config get-clusters
+ 1886  kubectl config use-context kink-clustertj400
+ 1887  kubectl config use-context kind-clustertj400
+ 1888  kubectl get nodes
+ 1889  kubectl config use-context kind-kind
+ 1890  kubectl get nodes
+ 1891  go run server.go
+ 1892  sudo apt install golang-go 
+ 1893  go run server.go
+ 1894  docker ps -a
+ 1895  go run server.go
+ 1896  docker build -t luizalvesr/relou-trave .
+ 1897  docker run --rm -p 80:80 luizalvesr/relou-trave
+ 1898  docker push luizalvesr/relou-trave
+ 1899  docker ps -a 
+ 1900  docker rm $(docker ps -a -q) -f
+ 1901  docker ps 
+ 1902  docker rm $(docker ps -a -q) -f
+ 1903  docker build -t luizalvesr/relou-trave .
+ 1904  docker ps 
+ 1905  docker build -t luizalvesr/relou-trave .
+ 1906  history | grep "kubectl"
+ 1907  kubectl apply -f k8s/pod.yaml
+ 1908  kubectl get nodes
+ 1909  docker ps 
+ 1910  go run server.go
+ 1911  docker build -t luizalvesr/relou-trave .
+ 1912  docker ps 
+ 1913  docker run --rm -p 80:80 luizalvesr/relou-trave
+ 1914  kubectl get nodes
+ 1915  kubectl apply -f k8s/pod.yaml
+ 1916  go run server.go
+ 1917  docker build -t luizalvesr/relou-trave .
+ 1918  kubectl get nodes
+ 1919  docker ps 
+ 1920  kubectl apply -f k8s/replicaset.yaml
+ 1921  kubectl delete nodes
+ 1922  docker ps 
+ 1923  docker compose up --build
+ 1924  cd desafio-ngi
+ 1925  cd desafio-nginx-com-node
+ 1926  ls 
+ 1927  cd fullcycle-docker-desafios-main/
+ 1928  ls 
+ 1929  docker compose up --build 
+ 1930  docker run fredluciano/fullcycle
+ 1931  docker-compose up
+ 1932  cd desafio-nginx-com-node/
+ 1933  docker-compose up
+ 1934  cd ..
+ 1935  docker-compose up
+ 1936  docker ps 
+ 1937  docker rm $(docker ps -a -q) -f
+ 1938  docker ps 
+ 1939  docker rm $(docker ps -a -q) -f
+ 1940  docker ps 
+ 1941  docker-compose up --builder
+ 1942  docker-compose up --build
+ 1943  docker-compose up 
+ 1944  docker-compose up --build
+ 1945  cd /home/t317542/FULL_CYCLE_DOCKER/desafio-fullcycle-nginx-node-main
+ 1946  code .
+ 1947  cd ..
+ 1948  cd desafio
+ 1949  ls 
+ 1950  cd desafios
+ 1951  code .
+ 1952  cd ..
+ 1953  cd FULLCYCLE/
+ 1954  LS 
+ 1955  ls 
+ 1956  cd desafio-nginx-com-node/
+ 1957  ls 
+ 1958  code .
+ 1959  kubetcl --version
+ 1960  kubectl
+ 1961  linux version
+ 1962  linux --version
+ 1963  cd DOCKERSTD/
+ 1964  ls 
+ 1965  cd desafionginx
+ 1966  ls 
+ 1967  code .
+ 1968  cd ..
+ 1969  ls 
+ 1970  curl -LO "https://dl.k8s.io/release/$(curl -L -s https://dl.k8s.io/release/stable.txt)/bin/linux/amd64/kubectl"
+ 1971  $(uname -m) = x86_64 ] && curl -Lo ./kind https://kind.sigs.k8s.io/dl/v0.20.0/kind-linux-amd64
+ 1972  (uname -m) = x86_64 ] && curl -Lo ./kind https://kind.sigs.k8s.io/dl/v0.20.0/kind-linux-amd64
+ 1973  # For AMD64 / x86_64
+ 1974  [ $(uname -m) = x86_64 ] && curl -Lo ./kind https://kind.sigs.k8s.io/dl/v0.20.0/kind-linux-amd64
+ 1975  # For ARM64
+ 1976  [ $(uname -m) = aarch64 ] && curl -Lo ./kind https://kind.sigs.k8s.io/dl/v0.20.0/kind-linux-arm64
+ 1977  chmod +x ./kind
+ 1978  sudo mv ./kind /usr/local/bin/kind
+ 1979  kind
+ 1980  cat ~/.kube/
+ 1981  kind create cluster
+ 1982  kubectl cluster-info --context kind-kind
+ 1983  docker ps
+ 1984  kubectl get nodes
+ 1985  kind 
+ 1986  kind get cluster 
+ 1987  kind get clusters
+ 1988  kind delete klusters kind 
+ 1989  kind delete clusters kind 
+ 1990  kind get clusters
+ 1991  docker ps 
+ 1992  docker rm $(docker ps -a -q) -f
+ 1993  docker ps
+ 1994  ls 
+ 1995  cd FULLCYCLE/
+ 1996  LS 
+ 1997  ls
+ 1998  cd KUBERNETS/
+ 1999  code . -d
+ 2000  bash vpn.sh 
+ 2001  docker-compose up --build
+ 2002  docker-compose up --build --name luizalvesr/desafionginxnodejs
+ 2003  docker-compose up --build 
+ 2004  docker-compose up -d
+ 2005  pwd
+ 2006  ls 
+ 2007  docker-compose up -d
+ 2008  docker images ps 
+ 2009  docker ps 
+ 2011  docker images
+ 2012  docker images prune
+ 2013  docker ps 
+ 2014  docker-compose up --build 
+ 2015  git status 
+ 2016  git add .
+ 2017  git commit -m "Atualizando Readme.md"
+ 2018  git push 
+ 2019  history > comandosLinux.txt
